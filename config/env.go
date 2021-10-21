@@ -19,7 +19,6 @@ type config struct {
 	// Websocket配置
 	WebsocketAddr string // websocket地址
 
-	// Kafka配置
 }
 
 func NewConfig() *config {
